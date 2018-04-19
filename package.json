@@ -1,0 +1,36 @@
+{
+  "author": "Glen R. Goodwin (http://www.arei.net)",
+  "name": "TopLevelProcess",
+  "keywords": [
+    "process",
+    "child_process",
+    "spawn",
+    "fork"
+  ],
+  "description": "Node.js add-on for determining the top level process when using child_processes.",
+  "version": "1.0.0",
+  "homepage": "http://github.com/arei/TopLevelProcess",
+  "bugs": {
+    "url": "http://github.com/arei/TopLevelProcess/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/arei/TopLevelProcess/blob/master/LICENSE.txt"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arei/TopLevelProcess.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.9.1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~5.1.1"
+  },
+  "optionalDependencies": {}
+}
